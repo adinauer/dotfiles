@@ -1,0 +1,21 @@
+.VirtualBox
+.bash_history
+.zsh_history
+.bash_profile
+.bashrc
+.cpan
+.fonts
+.gitk
+.lesshst
+.oh-my-zsh
+.profile
+.ssh
+.subversion
+.vagrant.d
+.zcompdump
+VirtualBox VMs
+fonts
+themes
+words
+.viminfo
+.zsh-update
