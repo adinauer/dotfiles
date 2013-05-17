@@ -20,7 +20,6 @@ export PATH="${HOME}/bin:${PATH}"
 
 source ~/.zsh/adinauer/colorize.zsh
 source ~/.zsh/adinauer/maven.zsh
-# source ~/.zsh/adinauer/prompt.zsh
 
 source ~/.zsh/adinauer/completion.zsh
 
