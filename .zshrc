@@ -3,20 +3,7 @@ export TERM="xterm-256color"
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="powerline"
-
-POWERLINE_HIDE_HOST_NAME="true"
-POWERLINE_FULL_CURRENT_PATH="true"
-POWERLINE_DETECT_SSH="true"
-POWERLINE_DISABLE_RPROMPT="true"
-
-POWERLINE_GIT_CLEAN="✔"
-POWERLINE_GIT_DIRTY=" "
-POWERLINE_GIT_ADDED="✚"
-POWERLINE_GIT_MODIFIED="●"
-POWERLINE_GIT_DELETED="✖"
-POWERLINE_GIT_UNTRACKED="..."
-POWERLINE_GIT_RENAMED="➜"
+source ~/.zsh/adinauer/powerline.zsh
 
 source $ZSH/oh-my-zsh.sh
 
