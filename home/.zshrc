@@ -29,8 +29,5 @@ export WORDCHARS='*?[]~&;!$%^<>'
 
 export LESS=-rFX
 
-export DISPLAY=localhost:0.0
-#startxwin >/dev/null 2>&1
-
 PROMPT=$PROMPT"
  %# "
