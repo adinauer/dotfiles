@@ -20,6 +20,9 @@ source ~/.zsh/adinauer/completion.zsh
 
 source ~/bin/z.sh
 
+PATH=$PATH:$HOME/.rvm/bin
+source ~/.rvm/scripts/rvm
+
 # By default, zsh considers many characters part of a word (e.g., _ and -).
 # Narrow that down to allow easier skipping through words via M-f and M-b.
 export WORDCHARS='*?[]~&;!$%^<>'
