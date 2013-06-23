@@ -55,3 +55,16 @@ let mapleader=","
 :set timeout timeoutlen=1000 ttimeoutlen=100
 " Show line numbers
 set number
+
+" Function to toggle relative/absolute line numbers
+function! NumberToggle()
+    if(&relativenumber == 1)
+        set number
+    else
+        set relativenumber
+    endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
+
+
