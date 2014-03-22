@@ -67,4 +67,5 @@ endfunc
 
 nnoremap <C-n> :call NumberToggle()<cr>
 
+set rtp+=/home/adinauer/repos/powerline/powerline/bindings/vim
 

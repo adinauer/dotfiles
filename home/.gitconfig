@@ -5,6 +5,7 @@
 [color]
 	ui = true
 [alias]
+    ai = add --interactive
     st = status
     ci = commit
     ac = !git add -A && git commit
@@ -44,6 +45,7 @@
     ra = !git r --all
     l = "!. ~/.githelpers && pretty_git_log"
     la = !git l --all
+    l1 = !git log -1
     
     mt = mergetool
     rb = rebase
@@ -51,3 +53,5 @@
     rbc = rebase --continue
 [merge]
     tool = p4merge
+[push]
+	default = simple
