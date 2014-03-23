@@ -26,5 +26,7 @@ export WORDCHARS='*?[]~&;!$%^<>'
 
 export LESS=-rFX
 
-PROMPT=$PROMPT"
+PROMPT="%(?,,$fg[white]
+$bg[red]EXITCODE: %? $reset_color$fg[red]$reset_color
+)$PROMPT
  %# "
