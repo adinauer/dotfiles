@@ -8,6 +8,7 @@ source ~/.zsh/adinauer/powerline.zsh
 source $ZSH/oh-my-zsh.sh
 
 export JENKINS_USER="adinauer"
+export EDITOR="vim"
 
 source ~/.zsh/adinauer/environment.zsh
 source ~/.zsh/adinauer/aliases.zsh
