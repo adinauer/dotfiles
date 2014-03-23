@@ -1,0 +1,10 @@
+source ~/.zsh/adinauer/set_term.zsh
+source ~/.zsh/adinauer/powerline.zsh
+source ~/.zsh/adinauer/environment.zsh
+source ~/.zsh/adinauer/aliases.zsh
+source ~/.zsh/adinauer/encoding.zsh
+source ~/.zsh/adinauer/history.zsh
+source ~/.zsh/adinauer/key_bindings.zsh
+source ~/.zsh/adinauer/colorize.zsh
+source ~/.zsh/adinauer/completion.zsh
+source ~/.zsh/adinauer/_other.zsh
