@@ -1,4 +1,6 @@
-export TERM="xterm-256color"
+if [[ "x$TERM" = "xxterm" ]]; then
+    export TERM="xterm-256color"
+fi
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
