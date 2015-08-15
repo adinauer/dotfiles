@@ -1,20 +1,7 @@
-# Path to your oh-my-zsh configuration.
-ZSH_THEME="powerline"
+powerline-daemon -q
+source `pip show powerline-status | grep Location | awk -F " " '{ print $2 }'`/powerline/bindings/zsh/powerline.zsh
 
-POWERLINE_HIDE_HOST_NAME="true"
-POWERLINE_HIDE_USER_NAME="true"
-POWERLINE_FULL_CURRENT_PATH="true"
-POWERLINE_DETECT_SSH="true"
-POWERLINE_DISABLE_RPROMPT="true"
-
-POWERLINE_GIT_CLEAN="✔"
-POWERLINE_GIT_DIRTY=" "
-POWERLINE_GIT_ADDED="✚"
-POWERLINE_GIT_MODIFIED="●"
-POWERLINE_GIT_DELETED="✖"
-POWERLINE_GIT_UNTRACKED="..."
-POWERLINE_GIT_RENAMED="➜"
-
+autoload -Uz colors && colors
 
 PROMPT="%(?,,$fg[white]
 $bg[red]EXITCODE: %? $reset_color$fg[red]$reset_color
