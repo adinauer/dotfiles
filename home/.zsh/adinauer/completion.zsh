@@ -20,3 +20,16 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+# Load zsh-syntax-highlighting.
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load zsh-autosuggestions.
+source ~/.zsh/zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically.
+zle-line-init() {
+    zle autosuggest-start
+}
+zle -N zle-line-init
+
