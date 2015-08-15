@@ -1,6 +1,4 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
-
 ZSH_THEME="powerline"
 
 POWERLINE_HIDE_HOST_NAME="true"
@@ -17,8 +15,6 @@ POWERLINE_GIT_DELETED="✖"
 POWERLINE_GIT_UNTRACKED="..."
 POWERLINE_GIT_RENAMED="➜"
 
-
-source $ZSH/oh-my-zsh.sh
 
 PROMPT="%(?,,$fg[white]
 $bg[red]EXITCODE: %? $reset_color$fg[red]$reset_color

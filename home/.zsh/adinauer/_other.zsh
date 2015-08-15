@@ -1,7 +1,4 @@
-source /usr/share/zsh/site-functions/_z
-
-#PATH=$PATH:$HOME/.rvm/bin
-#source ~/.rvm/scripts/rvm
+source ~/.zsh/adinauer/commands/z.completion
 
 export WORDCHARS='*?[]~&;!$%^<>'
 export LESS=-rFX
