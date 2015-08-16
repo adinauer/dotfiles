@@ -11,7 +11,8 @@ autoload -Uz colors && colors
 
 PROMPT="%(?,,$fg[white]
 $bg[red]EXITCODE: %? $reset_color$fg[red]$reset_color
-)$PROMPT
+)
+$PROMPT
  %# "
 
 
